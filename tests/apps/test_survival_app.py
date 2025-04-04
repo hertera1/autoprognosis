@@ -80,7 +80,9 @@ def test_surv_app() -> None:
                         {},  # plugin args
                     ),
                 ],
+                "extras_cbk": None,
                 "auth": False,
+                "extras_cbk": None,
             }
         ),
     )
